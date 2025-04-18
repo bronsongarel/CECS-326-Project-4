@@ -44,14 +44,14 @@
      }
      // outputs the reversed linked list
      // Ex: T1, 4, 20
+     int current_time = 0;
      struct node *temp = reversed; // points to the head of the reversed list
      while (temp != NULL) {
         Task *t = temp->task; // get task in current noder
-        char *name = t->name; // points to name "T1"
-        int priority = t->priority; // points to priority "4"
         int burst = t->burst; // points to burst "20"
         run(t, burst);
         
+        current_time += burst;
          temp = temp->next;   // moves to next task in list                   
      }
  }
