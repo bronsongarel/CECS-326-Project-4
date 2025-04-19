@@ -7,7 +7,7 @@
 3. Navigate to Project Folder using Bash commands cd
 4. Use the following commands for First-Come-First-Serve
    make fcfs
-   ./fcfs <text file containing tasks>
+   ./fcfs <text-file-containing-tasks>
 5. Use the following commands for Priority
    make priority
    ./priority <text file containing tasks>
