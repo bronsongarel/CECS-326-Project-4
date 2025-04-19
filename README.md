@@ -1,5 +1,5 @@
 # CECS-326-Project-4
-1. Open up MinGW64 Terminal
+1. Open up MSYS2 MinGW64 Terminal
 2. Make sure that MinGW64 is updated using the below commands
 ```
    pacman -Syu
