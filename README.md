@@ -18,7 +18,7 @@
    ./priority <text-file-containing-tasks>
 ```
 6. Use the following commands for Round Robin
-'''
+```
    make rr
    ./rr <text-file-containing-tasks>
-'''
+```
