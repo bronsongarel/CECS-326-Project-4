@@ -54,7 +54,7 @@
      return 0;
  }
 
-// ORIGIONAL CODE
+// Given Code **Origional**
 /*
     while (fgets(task,SIZE,in) != NULL) {
         temp = strdup(task);
