@@ -38,7 +38,7 @@ void schedule() {
             Task *currTask = current->task; 
             Task *highTask = highest->task;
 
-            if (currTask->priority > highTask->priority) {
+            if (currTask->priority < highTask->priority) {
                 highest = current;               
             }
             current = current->next;                  
