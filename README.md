@@ -2,9 +2,11 @@
 1. Open up MinGW64 Terminal
 2. Make sure that MinGW64 is updated using the below commands
 '''
+{
    pacman -Syu
    pacman -Su
    pacman -S mingw-w64-x86_64-toolchain
+}
 '''
 4. Navigate to Project Folder using Bash commands cd
 5. Use the following commands for First-Come-First-Serve
