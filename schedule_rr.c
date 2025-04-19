@@ -65,8 +65,3 @@ void schedule() {
             }
         }
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> b95c3bad0d8efdb9ad681d7b65119b58ea696797
