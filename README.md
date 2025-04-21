@@ -22,3 +22,9 @@
    make rr
    ./rr <text-file-containing-tasks>
 ```
+
+NOTE: If you run into make file error "command not found"
+
+try typing make command like this instead: 
+mingw32-make fcfs
+
